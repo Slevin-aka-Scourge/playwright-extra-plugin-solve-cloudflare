@@ -29,7 +29,7 @@ chromium.use(
     }
   })
 )
-chromium.launch({ headless: "new" }).then(async browser => {
+chromium.launch({ headless: true }).then(async browser => {
   const page = await browser.newPage()
   await page.goto("https://rucaptcha.com/demo/cloudflare-turnstile-challenge");
   await page.waitForSelector(`a[href="/demo/cloudflare-turnstile"]`,{timeout:700000}) // WAIT TARGET ELEMENT
