@@ -1,0 +1,9 @@
+src/
+node_modules/
+examples/
+
+# Files
+package-lock.json
+.gitignore
+.env
+tsconfig.json
