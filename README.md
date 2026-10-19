@@ -1,6 +1,6 @@
 # playwright-extra-plugin-solve-cloudflare
 
-> A plugin for [puppeteer-extra](https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra) that provides an automated cloudflare solution using the service [2CAPTCHA](https://2captcha.com/?from=18177101)
+> A plugin for [playwright-extra](https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra) that provides an automated cloudflare solution using the service [2CAPTCHA](https://2captcha.com/?from=18177101)
 
 ## Install
 
